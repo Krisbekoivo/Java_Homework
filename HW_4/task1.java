@@ -53,11 +53,11 @@ public class task1 {
         Deque<String> list_4 = new LinkedList<>(Arrays.asList("6","4","1"));
         int numb1 = makeInt(list_1);
         int numb2 = makeInt(list_2);
-        int composition = numb1 * numb2;
+        int multiplication = numb1 * numb2;
         numb1 = makeInt(list_3);
         numb2 = makeInt(list_4);
-        int composition_2 = numb1 + numb2;
-        System.out.println(Pack(composition));
-        System.out.println(Pack(composition_2));        
+        int sum = numb1 + numb2;
+        System.out.println(Pack(multiplication));
+        System.out.println(Pack(sum));        
     }   
 }
